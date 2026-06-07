@@ -1,7 +1,9 @@
+# Inicializacion de Variables
 stock_disponible = 120
 capacidad_maxima = 120
 historial_prestamos = 0
 
+# Bienvenida y Menú Principal
 print("¡Bienvenido al sistema de gestión de préstamos de la Biblioteca Central!")
 
 while True:
