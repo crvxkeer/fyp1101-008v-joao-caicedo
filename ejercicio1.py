@@ -18,7 +18,7 @@ for i in range(cantidad_medicos):
     print(f"\n--- Registro del Médico {i+1} ---")
 
     while True:
-        nombre = input("Ingresa Nombre Profesional (mín. 6 caracterees, sin espacios): ")
+        nombre = input("Ingresa Nombre Profesional (mín. 6 caracteres, sin espacios): ")
         if len(nombre) >= 6 and " " not in nombre:
             break
         else:
